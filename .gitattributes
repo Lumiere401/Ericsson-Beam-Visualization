@@ -34,3 +34,7 @@
 *.backup1 filter=lfs diff=lfs merge=lfs -text
 *.backup2 filter=lfs diff=lfs merge=lfs -text
 *.backup3 filter=lfs diff=lfs merge=lfs -text
+*.backup4 filter=lfs diff=lfs merge=lfs -text
+*.backup5 filter=lfs diff=lfs merge=lfs -text
+*.backup6 filter=lfs diff=lfs merge=lfs -text
+*.backup7 filter=lfs diff=lfs merge=lfs -text
