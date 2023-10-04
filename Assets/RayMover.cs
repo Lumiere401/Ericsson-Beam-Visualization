@@ -10,6 +10,8 @@ public class RayMover : MonoBehaviour
     public float widthUnit;
     public float heightUnit;
     Vector3 bottomLeft;
+    [SerializeField] private float minHorizantalAngel;
+
     // Start is called before the first frame update
     void Start()
     {
