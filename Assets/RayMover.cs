@@ -10,7 +10,6 @@ public class RayMover : MonoBehaviour
     public float widthUnit;
     public float heightUnit;
     Vector3 bottomLeft;
-    [SerializeField] private float minHorizantalAngel;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +18,8 @@ public class RayMover : MonoBehaviour
         //heightUnit = 2.5f / rows;
         bottomLeft = transform.position;
         StartCoroutine(MoveRayEverySecond());
+        // Convert angles from degrees to radians
+       
     }
 
     // Update is called once per frame
@@ -43,6 +44,8 @@ public class RayMover : MonoBehaviour
     }
     void MoveRay(int row, int column)
     {
+        
+
         this.transform.position = bottomLeft + new Vector3(0,heightUnit*row,widthUnit*column);
     }
 }
